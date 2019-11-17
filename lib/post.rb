@@ -4,14 +4,7 @@ class Post
     @title = title
   end
 
-  def author
-    @author = author
-  end
-
-  def name(author)
-    @name = name
-    
-  end
+  
 
 
 end
