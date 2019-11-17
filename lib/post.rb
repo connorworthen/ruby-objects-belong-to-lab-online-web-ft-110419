@@ -11,6 +11,6 @@ class Post
   def name
     @name = name
   end
-    
+
 
 end
