@@ -10,7 +10,7 @@ class Post
 
   def name(author)
     @name = name
-    @author << @name
+    
   end
 
 
