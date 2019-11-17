@@ -4,12 +4,13 @@ class Post
     @title = title
   end
 
-  def author(post)
-    @post = post
+  def author
+    @author = author
   end
 
-  def name
+  def name(author)
     @name = name
+    @author << name
   end
 
 
