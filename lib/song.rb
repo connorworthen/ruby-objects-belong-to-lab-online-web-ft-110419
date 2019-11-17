@@ -1,6 +1,7 @@
 class Song
-  attr_reader :title, :artist, :name
+  attr_accessor :title, :artist, :name
   def initiative(title)
     @title = title
   end
+
 end
